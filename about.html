@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+      <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Acasa</a></li>
+                        <li><a href="about.html">Despre noi</a></li>
+                        <li><a href="course.html">Noutati</a></li>
+                        <li><a href="blog.html">Profesori</a></li>
+                        <li><a href="contact.html">Contacte</a></li>
+                        <li><a href="deleted.html">designuri folosite</a></li>
+                     </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Despre noi</h1>
+      </section>
+
+      <!-- --------about us-------- -->
+
+      <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>Mesajul directorului:</h1>
+                <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet harum quibusdam laudantium aspernatur cum minima dolor voluptates suscipit omnis? Quisquam, minus vel fuga fugiat necessitatibus cupiditate quae optio pariatur qui."</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+                <div class="about-col">
+                    <img src="images/about.jpg">
+                </div>
+
+        </div>
+
+      </section>
+      <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+                <h2>Date generale:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam eaque quod inventore! Tenetur veniam corrupti, incidunt expedita molestias modi accusantium libero doloremque odio soluta vero optio atque quasi reiciendis sunt.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quidem, omnis nam quam ipsum corporis vel cum dicta inventore, autem cupiditate, delectus nulla quasi! Mollitia corrupti ea ex! Modi, iste?</p>
+                <br>
+                <h4><i>Misiunea liceului:</h4></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quidem, omnis nam quam ipsum corporis vel cum dicta inventore, autem cupiditate, delectus nulla quasi! Mollitia corrupti ea ex! Modi, iste?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quidem, omnis nam quam ipsum corporis vel cum dicta inventore, autem cupiditate, delectus nulla quasi! Mollitia corrupti ea ex! Modi, iste?</p>
+                <br>
+
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Your Name">
+                        <input type="email" placeholder="Enter Your  Email Address">
+                        <textarea rows="5" placeholder="Your Comment Here..."></textarea>
+                        <button type="submit" class="hero-btn red-btn">Submit Now</button>
+                    </form>
+                </div>
+
+            </div>
+                <div class="blog-right">
+                    <h3>Rezultate:</h3>
+                    <div>
+                        <span>Olimpiade raionale:</span>
+                        <span>11</span>
+                    </div>
+                    <div>
+                        <span>Competii sportive:</span>
+                        <span>32</span>
+                    </div>
+                    <div>
+                        <span>Concursurii nationale:</span>
+                        <span>17</span>
+                    </div>
+                    <div>
+                        <span>Concursuri internationale:</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+
+                </div>
+        </div>
+        </section>
+        <div class="imnul">
+        <h2>Imnul liceului:</h2>
+        </div>
+        <div class="imnul1">
+            <h2>Imnul liceului:</h2>
+            </div>
+         <audio controls src="y2mate_accompaniment.wav">
+
+         
+
+
+            <section class="cta">
+                <h1>Invatatorii iti deschid usa, <br>insa numai tu insuti poti trece dincolo de ea.</h1>
+                <a href="contact.html" class="hero-btn">CONTACTEAZA-NE</a>
+    
+            </section>
+
+<!-- --- Footer --- -->
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Voluptatibus eveniet cupiditate reprehenderit minima vitae nam! </p>
+            <div class="icons">
+               <a href=""><i class="fa fa-facebook"></i></a>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made by Alexandru</p>
+        </section>
+
+     <!-- JavaScript code for navigation bar -->
+      <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+      </script>
+</body>
+</html>
